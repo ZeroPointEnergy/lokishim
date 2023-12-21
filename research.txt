@@ -1,0 +1,30 @@
+smac/loki missing functions
+
+https://github.com/ZeroPointEnergy/smacshim/blob/master/smacshim.c
+
+https://github.com/gcc-mirror/gcc/blob/41d6b10e96a1de98e90a7c0378437c3255814b16/gcc/ChangeLog-1997
+
+https://sourceforge.net/p/mesa3d/mailman/message/9242996/
+https://wiki.osdev.org/Libsupcxx
+
+
+Thu Nov 20 14:42:15 1997  Jason Merrill  <jason@yorick.cygnus.com>
+
+	* Makefile.in (LIB2FUNCS): Remove C++ memory management support.
+	* libgcc2.c: Remove __builtin_new, __builtin_vec_new, set_new_handler,
+	__builtin_delete, and __builtin_vec_delete.
+
+	* except.c (output_exception_table): Don't bother with
+	__EXCEPTION_END__.
+
+
+> See gcc/cp/new*.cc.  If you build up a libgcc.a and nm it, you'll see:
+> 
+> kankakee bash[282] nm libgcc.a | grep builtin_new
+> 00000008 W __builtin_new
+>          U __builtin_new
+> 
+
+
+git: ced78d8b0c319de1c5f00bf0cc0972f317f43309
+
