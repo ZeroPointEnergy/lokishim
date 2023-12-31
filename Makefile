@@ -1,5 +1,5 @@
 
-BINS=smacshim.so
+BINS=lokishim.so
 
 all: $(BINS)
 
