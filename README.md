@@ -6,6 +6,7 @@ requires to run on modern systems.
 
 ## Tested games
 - Sid Meier's Alpha Centauri
+- Civilization: Call to Power
 - Descent 3
 - Kohan: Immortal Sovereigns
 
