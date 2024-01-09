@@ -9,6 +9,7 @@ requires to run on modern systems.
 - Civilization: Call to Power
 - Descent 3
 - Kohan: Immortal Sovereigns
+- Shogo: Mobile Armor Division
 
 ## Requirements
 Make sure you have a 32-bit capable C compiler.

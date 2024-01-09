@@ -24,6 +24,11 @@ void __builtin_vec_delete(void *ptr)
     free(ptr);
 }
 
+void *set_new_handler__FPFv_v(void *f)
+{
+    return 0;
+}
+
 /* Placement new */
 void *__nw__FUiPv(int size, void *p)
 {
