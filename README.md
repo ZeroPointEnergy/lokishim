@@ -1,8 +1,9 @@
 # Loki games Shim
 
-This is a shim that adds missing functions that some old Linux native games
+This is a shim that adds missing functions that some old Linux native games,
 released by [Loki Software](https://en.wikipedia.org/wiki/Loki_Entertainment)
-requires to run on modern systems.
+or [Hyperion Entertainment](https://en.wikipedia.org/wiki/Hyperion_Entertainment)
+in the late 90s and early 2000s, requires to run on modern systems.
 
 ## Tested games
 - Sid Meier's Alpha Centauri
@@ -10,6 +11,7 @@ requires to run on modern systems.
 - Descent 3
 - Kohan: Immortal Sovereigns
 - Shogo: Mobile Armor Division
+- SiN
 
 ## Requirements
 Make sure you have a 32-bit capable C compiler.
