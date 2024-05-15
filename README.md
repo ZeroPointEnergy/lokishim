@@ -9,6 +9,7 @@ in the late 90s and early 2000s, requires to run on modern systems.
 - Sid Meier's Alpha Centauri
 - Civilization: Call to Power
 - Descent 3
+- Heroes of Might and Magic III
 - Kohan: Immortal Sovereigns
 - Shogo: Mobile Armor Division
 - SiN
